@@ -4,6 +4,9 @@ body {
     background-color:#FFFFFF;
 }
 
+img {
+    display: block;
+}
 
 ul,ol {
     list-style: none;
@@ -173,6 +176,10 @@ ul,ol {
     padding-bottom: 120px;
 }
 
+.advantage {
+    margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -184,7 +191,7 @@ ul,ol {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
+    
 }
 
 .list-benefits {
@@ -279,6 +286,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .banking-app{
