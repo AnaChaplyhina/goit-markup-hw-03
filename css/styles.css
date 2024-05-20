@@ -202,21 +202,10 @@ ul,ol {
 
 }
 
-.fist-benefit {
+.benefits {
     width: calc((100% - 72px) / 4);
 }
 
-.second-benefit {
-    width: calc((100% - 72px) / 4);
-}
-
-.third-benefit {
-width: calc((100% - 72px) / 4);
-}
-
-.forth-benefit {
-    width: calc((100% - 72px) / 4);
-}
 .advantage {
     font-weight: 500;
     font-size: 20px;
@@ -289,27 +278,7 @@ color: #2e2f42;
 margin-bottom: 8px;
 }
 
-.banking-app{
-    width: calc((100% - 48px) / 3);
-}
-
-.cashless-payment {
-    width: calc((100% - 48px) / 3);
-}
-
-.meditation-app {
-    width: calc((100% - 48px) / 3);
-}
-
-.taxi-service {
-    width: calc((100% - 48px) / 3);
-}
-
-.screen-illustration {
-    width: calc((100% - 48px) / 3);
-}
-
-.online-courses {
+.our-products {
     width: calc((100% - 48px) / 3);
 }
 
