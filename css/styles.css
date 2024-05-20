@@ -4,18 +4,6 @@ body {
     background-color:#FFFFFF;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 ul,ol {
     list-style: none;
@@ -29,12 +17,17 @@ ul,ol {
     margin: 0 auto;
 }
 
-.header-container {
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
     display: flex;
 }
 
 .navigation {
     display: flex;
+    align-items: center;
   
 }
 .logo {
@@ -99,10 +92,13 @@ ul,ol {
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .main-title-page {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -112,6 +108,7 @@ ul,ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    max-width: 496px;
 }
 
 
@@ -155,6 +152,11 @@ ul,ol {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #ffffff; 
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 
 }
 
@@ -166,10 +168,47 @@ ul,ol {
     background-color: #404BBF;
 }
 
+.second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin-bottom: 8px;
+}
 
 .list-benefits {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 24px;
+
+}
+
+.fist-benefit {
+    width: calc((100% - 72px) / 4);
+}
+
+.second-benefit {
+    width: calc((100% - 72px) / 4);
+}
+
+.third-benefit {
+width: calc((100% - 72px) / 4);
+}
+
+.forth-benefit {
+    width: calc((100% - 72px) / 4);
 }
 .advantage {
     font-weight: 500;
@@ -181,6 +220,7 @@ ul,ol {
 
 .our-team {
     background: #F4F4FD;
+    padding: 120px 0 120px;
 }
 
 .list-team {
@@ -189,6 +229,12 @@ ul,ol {
     width: calc((100% - 72px) / 4);
     padding-left: 0;
     margin: 0;
+    
+}
+
+.list-section {
+    display: flex;
+    gap: 24px;
 }
 
 .team {
@@ -197,26 +243,89 @@ ul,ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
     
 }
 
+.team-container{
+    padding: 32px 0 32px;
+    
+    
+}
 .team-position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
+.forth-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 .portfolio {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-
 }
 
+.banking-app{
+    width: calc((100% - 48px) / 3);
+}
+
+.container-banking-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.container-cashless-payment {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.container-meditation-app {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+}
+
+.container-taxi-service {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.container-screen-illustration {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.container-online-courses {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 .port-descr {
     font-weight: 400;
     font-size: 16px;
@@ -227,6 +336,7 @@ color: #2e2f42;
 
 .last-page {
 background: #2e2f42;
+padding: 100px 0;
 }
 
 .footer {
@@ -246,6 +356,8 @@ background: #2e2f42;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-tech-footer {
