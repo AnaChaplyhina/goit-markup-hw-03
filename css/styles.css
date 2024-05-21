@@ -1,7 +1,17 @@
 body {
+    margin: 0;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0; 
 }
 
 img {
@@ -26,11 +36,13 @@ ul,ol {
 
 .container-header {
     display: flex;
+    align-items: center;
 }
 
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
   
 }
 .logo {
@@ -112,6 +124,9 @@ ul,ol {
     letter-spacing: 0.02em;
     color: #fff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
@@ -160,6 +175,8 @@ ul,ol {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -286,7 +303,7 @@ margin-bottom: 8px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+   
 }
 
 .port-descr {
@@ -306,6 +323,7 @@ padding: 100px 0;
     letter-spacing: 0.02em;
     color:#F4F4FD;
     line-height: 1.5;
+    max-width: 264px;
     
 
 }
